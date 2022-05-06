@@ -10,18 +10,42 @@
     }
 
     p {
-        font-family: fantasy
+        font-family: fantasy; font-style: oblique;
     }
 
     body {
-        background-color: rgb(189, 192, 199);
+        background-color: rgb(119,173,120);
+    }
+
+    #sobre-mim {
+        font-weight: bold;
+    }
+
+    .index {
+        font-size: 25px;
+    }
+
+    .skills {
+        line-height: 40px; text-decoration: underline; text-align:left; 
+    }
+
+    #esforço {
+        font-size: 25px;
+    }
+
+    #disciplina {
+        font-size: 20px;
+    }
+
+    #empatia {
+        font-size: 18px;
     }
 
 </style>
 <body>
     <h1>Antonio Cezar Gonçalves de Araujo Junior</h1>
     
-    <h4>Índice</h4>
+    <h4 class="index">Índice</h4>
 
     <ul>
         <li><a href="#eu">Sobre mim</a> </li>
@@ -33,14 +57,14 @@
 
     <img id="foto" src="./223253356_4197907830271979_611587486684692905_n.jpg" alt="Foto de Antonio Cezar" width="200px">
     
-    <p id="eu" id="sobre-mim">22 anos, brasileiro, moro em Belém do Pará e sou estudante da Trybe</p>
+    <p id="eu">22 anos, brasileiro, <a id="sobre-mim"> moro em Belém do Pará</a> e sou estudante da Trybe </p>
     
-    <h4 id="habilidades">Habilidades que me orgulho</h4>
+    <h4 id="habilidades" class="index">Habilidades que me orgulho</h4>
 
     <ul>
-        <li><strong>Esforço</strong></li>
-        <li><strong>Disciplina</strong></li>
-        <li>Empatia</li>
+        <li class="skills" id="esforço">Esforço</li>
+        <li class="skills" id="disciplina">Disciplina</li>
+        <li class="skills" id="empatia">Empatia</li>
     </ul>
 
     <h4><a href="https://blog.betrybe.com/" target="_blank">Blog da Trybe</a></h4>
